@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.card-title {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    margin: 0 75px;
+}
+
+.card-subtitle {
+    margin: 19.5px 0 6.5px 0;
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+.email-form-title {
+    font-size: 1.625rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+    align-content: center;
+}
+
+.get-started-form {
+    height: 60px;
+    display: flex;
+}
+
+.get-started-form input {
+    height: 100%;
+    width: 450px;
+    padding-left: 10px 10px 0;
+    margin-left: 90px;
+}
+
+.get-started-form button {
+    background-color: red;
+    color: white;
+    height: 100%;
+    font-size: 1.625rem;
+    border: none;
+    padding: 0px 26px;
+    border-left: 1px solid black;
+
+}
+
+
+.banner-wrap {
+    background-image: url(./Assets/ZA-en-20230220-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    border-bottom: solid #222 8px;
+    position: relative;
+    z-index: 1;
+}
+
+.overlay {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background: black;
+    position: absolute;
+    top: 0;
+    opacity: 50%;
+}
+
+
+.nav-bar{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    margin: 0px 45px;
+    padding-top: 20px;
+}
+
+.nav-bar img {
+    height: 55px;
+}
+
+.nav-bar a {
+    padding: 7px 17px;
+    color: white;
+    background: red;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.banner-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 75px);
+}
+
+
+.info-container {
+    background: black;
+    color: white;
+    display: flex;
+    border-bottom: solid 8px #222;
+    padding: 70px 45px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tv-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    height: auto;
+    max-width: 100%;
+    margin: 0 164.6px 0 164.6px;
+}
+
+.tv-container video {
+    position: absolute;
+}
+
+.tv-container img {
+    z-index: 1;
+}
+
+.footer {
+    background: black;
+    padding-bottom: 50px;
+}
+
+.footer-items {
+    margin: 0 47.5px;
+    padding: 70px 45px;
+}
+
+.footer-top {
+    margin-bottom: 30px;
+}
+
+.footer ul li, .questions-title {
+    color: #757575;
+    text-decoration: none;
+}
+
+.footer-links li {
+    font-size: 13px;
+    line-height: 2;
+}
+
+.questions-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-links {
+    list-style-type: none;
+    columns: 4;
+    padding: 0;
+}
+
+.footer ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.language {
+    height: 53px;
+    width: 142px;
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #999;
+    padding: 0 10px;
+    margin-left: 85px;
+    border-radius: 3px;
+}
+
+.language select {
+    padding: 10px;
+    width: 100%;
+    margin-left: 10px;
+    border: none;
+    appearance: none;
+    background: black;
+    color: #999;
+}
